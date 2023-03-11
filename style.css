@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 ::after,
 ::before {
@@ -35,4 +36,21 @@ Potom zkuste třeba tři nebo čtyři sloupce.
 Pro každou variantu si pomocí devtools udělejte screenshot.
 */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+p {
+  text-align: right;
+}
+
+div.galerie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.foto {
+  width: calc(100%/4);
+}
